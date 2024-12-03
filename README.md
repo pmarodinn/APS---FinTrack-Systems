@@ -44,5 +44,20 @@ bun dev
 ```
 Abra o navegador e vá até http://localhost:3000 para ver o painel em ação.
 
+### Atenção
+
+Caso ainda não tenha instalado os módulos, segue os snippets para instalação
+
+```bash
+npx create-next-app@latest
+
+npm install next react react-dom
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init
+
+npm install recharts
+```
 ## Editando o Projeto
 Você pode começar a editar a página principal modificando o arquivo app/page.tsx. A página será atualizada automaticamente à medida que você edita o arquivo.
